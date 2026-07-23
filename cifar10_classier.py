@@ -14,7 +14,7 @@ from net import Net_s,Net_m,Net_l
 from resnet import ResNet50, ResNet18, ResNet34
 import resnet
 from vgg import VGG
-
+import dog
 
 net = VGG('VGG16').cuda()
 net = nn.DataParallel(net)
